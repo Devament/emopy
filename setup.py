@@ -12,6 +12,7 @@ setup(name='emopy',
       packages=['emopy'],
       dependency_links=["https://github.com/tensorflow/tensorflow/tarball/master"],
       install_requires=[
+          'dlib',
           'tensorflow',
           'keras>=2.0'
       ],
