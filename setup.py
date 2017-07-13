@@ -14,6 +14,7 @@ setup(name='emopy',
       install_requires=[
           'dlib',
           'tensorflow',
-          'keras>=2.0'
+          'keras>=2.0',
+          'h5py'
       ],
       zip_safe=False)
